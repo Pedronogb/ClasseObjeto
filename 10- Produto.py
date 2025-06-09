@@ -15,6 +15,7 @@ print(produto1.quantidade, "unidades")
 print(f"{produto1.preco} * {produto1.quantidade}")
 print("Valor total: ", produto1.valorTotal())
 print()
+
 produto2 = Produto("Café Pilão 500g", 49.99, 15)
 print(produto2.nome)
 print("Preço: ", produto2.preco)
